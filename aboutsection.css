@@ -1,0 +1,124 @@
+.about__section{
+      background-image: url(./img/technologyback.png);
+      background-size: cover;
+      background-position: center;
+      
+}
+
+.background_2{
+      
+      height: 100vh;
+      width: 100%;
+      background:linear-gradient(to right, rgba(81, 71, 224, 0.479),rgba(0, 162, 255, 0.4)) ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.back_glass{
+      height: 14cm;
+      width: 30cm;
+      margin-left: 2.3cm;
+      background-color:rgba(169, 207, 219, 0.123);
+      box-shadow: 12px 12px 9px rgba(1, 6, 46, 0.274);
+      border-left: 1px solid rgba(255, 255, 255,.2);
+      border-top: 1px solid rgba(255, 255, 255,.2);
+      display: flex ;
+      border-radius: 21px;
+      
+}
+
+.about_neon_line{
+      height: 150px;
+      width: 6px;
+      margin-left: 3em;
+      display: inline-block;
+      background-color: rgb(125, 178, 247);
+      box-shadow: 0px 0px 14px rgb(136, 161, 194),
+                  0px 0px 14px rgb(136, 161, 194),
+                  0px 0px 6px rgb(200,200,200);
+}
+.about_line_text{
+      height: 8em;
+      width: 30em;
+      margin-top: 3.6em;
+      display:flex;
+      font-size: 20px;
+      color: rgba(255, 255, 255,.7);
+      background :linear-gradient(to right ,rgb(90, 197, 224),rgb(196, 202, 171));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+
+}
+.about_para{
+      height: 0em;
+      width: 27em;
+      margin-left: 1.8em;
+      margin-top: 0.3em;
+}
+.para{
+      height: 0em;
+      width: 27em;
+      margin-top: 5em;
+      margin-left: -25em;
+}
+
+
+.project_glass{
+      height: 27em;
+      width: 28em;
+      margin: 2.8em 3em;
+      background-color: rgba(68, 122, 158, 0.171);
+      box-shadow: 3px 3px 6px rgba(185, 243, 250, 0.5),-3px -3px 6px rgba(185, 243, 250, 0.5);
+     
+      border-radius: 15px;
+      color: rgba(255, 255, 255,.7);
+}
+.project_head{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 1em;
+      color:rgb(109, 185, 204);
+}
+.projects{
+      font-size: 21px;
+      margin: 0em 2em;
+      line-height: 40px;
+      
+}
+.projects a{
+      text-decoration: none;
+      color:rgb(109, 185, 204);
+      text-shadow: 0px 0px 3px rgb(169, 221, 235),
+                   0px 0px 6px rgb(169, 221, 235);
+}
+.projects a:hover{
+      text-shadow: 0 0 3px rgb(167, 221, 235),
+                   0 0 9px rgb(158, 195, 204),
+                   0 0 12px rgb(157, 188, 196),
+                   0 0 21px rgb(169, 221, 235);
+}
+
+
+.a_project{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 1em;
+      color: rgb(90, 197, 224);
+     .
+}
+.a_projects{
+      width: 17em;
+      height: 2.3em;
+      font-size: 21px;
+      margin-left: 3em;
+      display: flex;
+      background :linear-gradient(to right ,rgb(90, 197, 224),rgb(196, 202, 171));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.gear{
+      margin-right: 10px;
+}

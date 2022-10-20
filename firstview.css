@@ -1,0 +1,153 @@
+*{
+      font-family: sans-serif;
+}
+body{
+      margin: 0;
+}
+
+.contact{
+      height: 21em;
+      width: 3.6em;
+      margin: 3cm 1cm 1cm 0.6cm;
+      background-color: transparent;
+      position: fixed;
+      
+      
+     
+      
+}
+#email{
+      margin-left: -3.5px;
+}
+
+#github,#linkedin,#email,#whatsapp{
+      margin-top: 0.5em;
+      padding: 8px;
+      text-shadow: 0px 0px 6px blue,
+                   0px 0px 12px blue,
+                   0px 0px 21px blue,
+                   0px 0px 36px blue;
+      animation: animate 3s linear infinite;
+      color: rgb(240, 229, 229);
+  
+
+}
+
+@keyframes animate{
+      0%{
+            filter: hue-rotate(0deg);
+      }
+      100%{
+            filter: hue-rotate(360deg);
+      }
+}
+
+
+
+#github:hover{
+      animation: none;
+      text-shadow: 0px 0px 3px rgb(4, 250, 213),
+                   0px 0px 6px rgb(1, 255, 242),
+                   0px 0px 14px rgb(3, 233, 250),
+                   0px 0px 21px rgb(1, 250, 250),
+                   0px 0px 30px rgb(1, 250, 250),
+                   0px 0px 40px rgb(2, 214, 252),
+                   0px 0px 50px rgb(0, 217, 255),
+                   0px 0px 60px rgb(2, 214, 252),
+                   0px 0px 70px rgb(0, 217, 255);;
+      cursor: pointer;
+}
+#linkedin:hover{
+      animation: none;
+      text-shadow: 0px 0px 3px rgb(4, 250, 213),
+                   0px 0px 6px rgb(1, 255, 242),
+                   0px 0px 14px rgb(3, 233, 250),
+                   0px 0px 21px rgb(1, 250, 250),
+                   0px 0px 30px rgb(1, 250, 250),
+                   0px 0px 40px rgb(2, 214, 252),
+                   0px 0px 50px rgb(0, 217, 255),
+                   0px 0px 60px rgb(2, 214, 252),
+                   0px 0px 70px rgb(0, 217, 255);;
+      cursor: pointer;
+}
+#email:hover{
+      animation: none;
+      text-shadow: 0px 0px 3px rgb(4, 250, 213),
+                   0px 0px 6px rgb(1, 255, 242),
+                   0px 0px 14px rgb(3, 233, 250),
+                   0px 0px 21px rgb(1, 250, 250),
+                   0px 0px 30px rgb(1, 250, 250),
+                   0px 0px 40px rgb(2, 214, 252),
+                   0px 0px 50px rgb(0, 217, 255),
+                   0px 0px 60px rgb(2, 214, 252),
+                   0px 0px 70px rgb(0, 217, 255);;
+      cursor: pointer;
+}
+
+#github{
+      animation-delay: .3s;
+}
+#linkedin{
+      animation-delay: .9s;
+}
+#email{
+      animation-delay: 1.5s;
+}
+#whatsapp{
+      animation-delay: 2s;
+}
+.background{
+      height: 100vh;
+      width: 100%;
+      background:linear-gradient(to right, rgba(0, 60, 255, 0.8),rgba(255, 0, 255, 0.822)) ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.text{
+      margin-left: cm;
+}
+
+.text_1{
+      font-size: 21px;
+      margin: 0;
+      color: rgba(0,0,0,0.9);
+}
+.text_2{
+      font-size: 60px;
+      margin: 0;
+      color: rgba(0,0,0,0.8);
+}
+.text_3{
+      font-size: 60px;
+      margin: 0;
+      color: rgba(0,0,0,0.8);
+}
+.text_4{
+      
+      font-size: 21;
+}
+
+section{
+      height: 100vh;
+      
+}
+.full__section{
+      height: 100vh;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+}
+.sections{
+      scroll-snap-align: start;
+}
+.first__section{
+      background-image: url(./img/Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2-1200x720.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+      
+}
+
+
+

@@ -1,0 +1,79 @@
+.skills__section{
+      background-image: url(./img/10126874_4147487.jpg);
+      background-size: cover;
+      background-position: center;
+}
+
+.background_3{
+      
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.back_glass_neon{
+      height: 14cm;
+      width: 30cm;
+      margin-left: 2.3cm;
+      margin-top: 0cm;
+      background-color:rgba(165, 209, 191, 0.2);
+      box-shadow: 6px 6px 6px rgba(109, 201, 193, 0.274),
+                  -6px -6px 6px rgba(109, 201, 193, 0.274);
+      border: 1px solid rgba(255, 255, 255,.2);
+      border-radius: 21px;
+}
+
+.header_sills{
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 1em;
+      color: rgb(139, 231, 174);
+      text-shadow: 0 0 3px rgb(139, 231, 174);
+}
+
+.lang{
+      font-size: 21px;
+      color: rgb(154, 199, 184);
+      text-shadow: 0 0 3px rgb(139, 231, 174)
+}
+.bar{
+      height: 30px;
+      width: 90%;
+      background-color: rgba(45, 197, 174,.7);
+      border-radius: 21px;
+      border: 2px solid rgb(165, 241, 216);
+      box-shadow: 0 0 3px rgb(137, 247, 195),0 0 6px rgb(137, 247, 195);
+}
+
+.fill{
+      height: 30px;
+      width: 90%;
+      background-color: rgba(0, 255, 255,.3);
+      border-top-left-radius:21px ;
+      border-bottom-left-radius:21px;
+}
+
+.fpython{
+      box-shadow: 0 0 3px rgb(137, 247, 238),0 0 9px rgb(137, 247, 242);
+}
+
+.fjavascript{
+      background-color: rgba(78, 235, 117,.6);
+      box-shadow: 0 0 3px rgb(120, 236, 130),0 0 9px rgb(99, 182, 127);
+      width: 84%;
+}
+
+.fhtml{
+      background-color: rgba(235, 232, 78, 0.5);
+      box-shadow: 0 0 3px rgb(219, 213, 128),0 0 9px rgb(177, 182, 99);
+      width: 81%;
+}
+
+.fcss{
+      background-color: rgba(235, 78, 222, 0.5);
+      box-shadow: 0 0 3px rgb(236, 120, 230),0 0 9px rgb(182, 99, 178);
+      width: 87%;
+}
